@@ -89,7 +89,7 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 <table>
     <thead>
         <tr>
-			<th colspan=1, rowspan=2>Date generated</th>
+			<th colspan=1, rowspan=2>Date</th>
             <th colspan=4>Full drop of all mined roads</th>
             <th colspan=4>OSM missing roads</th>
         </tr>
