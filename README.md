@@ -89,16 +89,18 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 <table>
     <thead>
         <tr>
+			<th colspan=1></th>
             <th colspan=4>Full drop of all mined roads</th>
             <th colspan=4>OSM missing roads</th>
         </tr>
 		<tr>
-            <th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
-			<th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th> <th>Date generated</th>
+            <th>Date generated</th><th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
+			<th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
         </tr>
     </thead>
     <tbody>
 		<tr>
+			<td>02-May-2020</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip">USA</a></td>
 			<td>54484737</td>
 			<td>9308940</td><td>13459</td>
@@ -106,9 +108,9 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>5931242</td>
 			<td>817761</td>
 			<td>2924</td>
-			<td>02-May-2020</td>
 		</tr>
 		<tr>
+			<td>01-March-2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Chile.zip">Chile</a></td>
 			<td>1052139</td>
 			<td>169389</td>
@@ -117,9 +119,9 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>22525</td>
 			<td>4461</td>
 			<td>4.4</td>
-			<td>01-March-2021</td>
 		</tr>
 		<tr>
+			<td>01-March-2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Colombia.zip">Colombia</a></td>
 			<td>848297</td>
 			<td>140948</td>
@@ -128,9 +130,9 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>10240</td>
 			<td>1928</td>
 			<td>1.7</td>
-			<td>01-March-2021</td>
 		</tr>
 		<tr>
+			<td>01-March-2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Ecuador.zip">Ecuador</a></td>
 			<td>562097</td>
 			<td>93099</td>
@@ -139,9 +141,9 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>10863</td>
 			<td>1752</td>
 			<td>1.8</td>
-			<td>01-March-2021</td>
 		</tr>
 		<tr>
+			<td>01-March-2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Peru.zip">Peru</a></td>
 			<td>727709</td>
 			<td>109524</td>
@@ -150,9 +152,9 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>5575</td>
 			<td>927</td>
 			<td>0.9</td>
-			<td>01-March-2021</td>
 		</tr>
 		<tr>
+			<td>01-March-2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Venezuela.zip">Venezuela</a></td>
 			<td>906586</td>
 			<td>162488</td>
@@ -161,7 +163,6 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 			<td>20434</td>
 			<td>4630</td>
 			<td>3.6</td>
-			<td>01-March-2021</td>
 		</tr>
 	</tbody>
 </table>
