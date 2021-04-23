@@ -89,13 +89,13 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 <table>
     <thead>
         <tr>
-			<th colspan=1></th>
+			<th colspan=1, rowspan=2>Date generated</th>
             <th colspan=4>Full drop of all mined roads</th>
             <th colspan=4>OSM missing roads</th>
         </tr>
 		<tr>
-            <th>Date generated</th><th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
-			<th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
+            <th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
+			<th>Region</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
         </tr>
     </thead>
     <tbody>
