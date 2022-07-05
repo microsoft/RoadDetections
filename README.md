@@ -2,23 +2,35 @@ Introduction
 -------------------
 This data is freely available for download and use and contains 
 1. USA
-	- 54.5 million computer generated roads (9308k km)
-	- 5.9 million computer generated roads (817k km) that are missing in OpenStreetMaps roads drop from 02-May-2020
-2. Chile
-	- 1.05 million computer generated roads (170k km)
-	- 22,525 computer generated roads (4,461 km) that are missing in OpenStreetMaps roads drop from 01-March-2021
-3. Colombia
-	- 0.85 million computer generated roads (140k km)
-	- 10,241 computer generated roads (1,928 km) that are missing in OpenStreetMaps roads drop from 01-March-2021
-4. Ecuador
-	- 0.56 million computer generated roads (93k km)
-	- 10,863 computer generated roads (1,752 km) that are missing in OpenStreetMaps roads drop from 01-March-2021
-5. Peru
-	- 0.73 million computer generated roads (109k km)
-	- 5,575 computer generated roads (927 km) that are missing in OpenStreetMaps roads drop from 01-March-2021
-6. Venezuela
-	- 0.91 million computer generated roads (162k km)
-	- 20,434 computer generated roads (4,631 km) that are missing in OpenStreetMaps roads drop from 01-March-2021
+	- 54 million computer generated roads (9306K km)
+	- 5.9 million computer generated roads (817K km) that are missing in OpenStreetMaps roads drop from 02-May-2020
+2. South America
+	- 18.28 million computer generated roads (4480K km)
+	- 297.3K computer generated roads (97850 km) that are missing in OpenStreetMaps roads drop from 01-March-2021/08-February-2022
+3. Caribbean Islands
+	- 1.17 million computer generated roads (232K km)
+	- 27.5K computer generated roads (4908 km) that are missing in OpenStreetMaps roads drop from 13-January-2022
+4. Middle East
+	- 17.60 million computer generated roads (3444K km)
+	- 417.2K computer generated roads (83781 km) that are missing in OpenStreetMaps roads drop from 04-April-2022
+5. Central Asia
+	- 5.35 million computer generated roads (1204K km)
+	- 123.7K computer generated roads (27788 km) that are missing in OpenStreetMaps roads drop from 04-April-2022
+6. Northern Africa
+	- 5.33 million computer generated roads (1077K km)
+	- 115.5K computer generated roads (24207 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+7. Western Africa
+	- 4.44 million computer generated roads (982K km)
+	- 175.3K computer generated roads (31566 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+8. Central Africa
+	- 1.11 million computer generated roads (324K km)
+	- 28.9K computer generated roads (6032 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+9. Eastern Africa
+	- 4.34 million computer generated roads (1151K km)
+	- 137.2K computer generated roads (30971 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+10. Southern Africa
+	- 5.15 million computer generated roads (1506K km)
+	- 190.2K computer generated roads (39755 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
 
 License
 -------------------
@@ -45,11 +57,16 @@ Our network was based on UNet and ResNet and the following papers [U-Net] (https
 The model was trained on 512x512 images, it is fully-convolutional, meaning that the model can be applied to an image of any size (constrained by GPU memory, 1088x1088 in our case).
 
 #### Training details
-The training set consists of 16800 labeled images. Majority of the satellite images cover diverse residential areas in the US. For the sake of good set representation, we have enriched the set with samples from various areas covering mountains, glaciers, forests, deserts, beaches, coasts, etc.
-Images in the set are of 1024x1024 pixel size with 1 meter/pixel resolution. The training is done with Keras toolkit.
+The training set consists of 20000 labeled images. Majority of the satellite images cover diverse residential areas all around the world. For the sake of good set representation, we have enriched the set with samples from various areas covering mountains, glaciers, forests, deserts, beaches, coasts, etc.
+Images in the set are of 1088x1088 pixel size with 1 meter/pixel resolution. The training is done with Keras toolkit.
 
 #### Metrics
-These are the intermediate stage metrics we use to track CNN model improvements and they are pixel based. </br> Pixel precision/recall = 83.06%/80.74%
+We measure intermediate stage metrics to track performance of our models. <i>Pixel metric</i> measures performance of the the Convolutional Neural Network and <i><a href='https://medium.com/the-downlinq/spacenet-road-detection-and-routing-challenge-part-i-d4f59d55bfce'>APLS metric (Average Path Length Similarity)</a></i> measures overall connectivity after geometry generation stage.
+
+| Metric        | Precision    | Recall    |
+| ------------- |:-------------:|:-------------:|
+|Pixel|85.24%|82.81%|
+|APLS|87.53%|79.33%|
 
 #### Description
 Geometry generation consists of the following steps
@@ -60,29 +77,17 @@ Geometry generation consists of the following steps
 5. Finalizing road shapes and network quality
 6. Stiching road geojsons between neighboring images where needed
 
-#### Metrics
-We use APLS metric to evaluate connectivity. It is measured over images with scale 200x200 meters. </br> APLS precision/recall = 77.61%/71.52%
-
 #### Data Vintage
 The vintage of the roads depends on the vintage of the underlying imagery. Because Bing Imagery is a composite of multiple sources it is difficult to know the exact dates for individual pieces of data.
 
 #### How good are the data?
-The Osm Missing Data went through a final classifier to ensure that the precision is at least 90%.
-Here is another measurement with human OSM editors before the final classifier:
-| Label         | %     |
-| ------------- |:-------------:|
-|Roads added without editing|77%|
-|Roads added with minor editing|18%|
-|Incorrect roads|5%|
+The Osm Missing Data went through a final classifier to ensure that the precision is at least 95% (90% for USA now - to be updated to 95% in 2022). After classifier filters out potentially bad roads we remeasure the precision and make sure that it is 95% before releasing results
 
 #### Will there be more data coming for other geographies?
-Yes, we are working on adding more countries. Next targets are South America and Europe and eventually whole world
+Yes, we are working on processing whole world by October-2022
 
 #### Why is the data being released?
 Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosystem.
-
-#### Should we import the data into OpenStreetMap?
-This dataset was shared with Facebook, owner or RapID - a tool for adding mined roads to OSM.
 
 ### External References
 
@@ -102,67 +107,72 @@ This dataset was shared with Facebook, owner or RapID - a tool for adding mined 
 		<tr>
 			<td>02-May-2020</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip">USA</a></td>
-			<td>54484737</td>
-			<td>9308940</td><td>13459</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/osm-missing-roads-model25feb2020-geo15oct2019-osm02may2020/USA.zip">USA</a></td>
-			<td>5931242</td>
-			<td>817761</td>
-			<td>2924</td>
+			<td>54.5M</td><td>9308K</td><td>13459</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/origUSA-PreMerge.zip">USA</a></td>
+			<td>5931242</td><td>817761</td><td>1259</td>
 		</tr>
 		<tr>
-			<td>01-March-2021</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Chile.zip">Chile</a></td>
-			<td>1052139</td>
-			<td>169389</td>
-			<td>248</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-osm18feb2021-imgmar2021-modelaug2020-algo15mar2021/Chile.zip">Chile</a></td>
-			<td>22525</td>
-			<td>4461</td>
-			<td>4.4</td>
+			<td>01-March-2021/08-February-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-Full.zip">South America</a></td>
+			<td>18.28M</td><td>4480K</td><td>4001</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-PreMerge.zip">South America</a></td>
+			<td>297.3K</td><td>97850</td><td>54</td>
 		</tr>
 		<tr>
-			<td>01-March-2021</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Colombia.zip">Colombia</a></td>
-			<td>848297</td>
-			<td>140948</td>
-			<td>191</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-osm18feb2021-imgmar2021-modelaug2020-algo15mar2021/Colombia.zip">Colombia</a></td>
-			<td>10240</td>
-			<td>1928</td>
-			<td>1.7</td>
+			<td>13-January-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip">Caribbean Islands</a></td>
+			<td>1.17M</td><td>232K</td><td>245</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-PreMerge.zip">Caribbean Islands</a></td>
+			<td>27.5K</td><td>4908</td><td>5</td>
 		</tr>
 		<tr>
-			<td>01-March-2021</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Ecuador.zip">Ecuador</a></td>
-			<td>562097</td>
-			<td>93099</td>
-			<td>130</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-osm18feb2021-imgmar2021-modelaug2020-algo15mar2021/Ecuador.zip">Ecuador</a></td>
-			<td>10863</td>
-			<td>1752</td>
-			<td>1.8</td>
+			<td>04-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip">Middle East</a></td>
+			<td>17.6M</td><td>3444K</td><td>3702</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-PreMerge.zip">Middle East</a></td>
+			<td>417.2K</td><td>83781</td><td>70</td>
 		</tr>
 		<tr>
-			<td>01-March-2021</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Peru.zip">Peru</a></td>
-			<td>727709</td>
-			<td>109524</td>
-			<td>161</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-osm18feb2021-imgmar2021-modelaug2020-algo15mar2021/Peru.zip">Peru</a></td>
-			<td>5575</td>
-			<td>927</td>
-			<td>0.9</td>
+			<td>04-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-Full.zip">Central Asia</a></td>
+			<td>5.35M</td><td>1204K</td><td>1128</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-PreMerge.zip">Central Asia</a></td>
+			<td>123.7K</td><td>27788</td><td>21</td>
 		</tr>
 		<tr>
-			<td>01-March-2021</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-imgmar2021-modelaug2020-algo15mar2021/Venezuela.zip">Venezuela</a></td>
-			<td>906586</td>
-			<td>162488</td>
-			<td>198</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/sa5-osm18feb2021-imgmar2021-modelaug2020-algo15mar2021/Venezuela.zip">Venezuela</a></td>
-			<td>20434</td>
-			<td>4630</td>
-			<td>3.6</td>
+			<td>20-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-Full.zip">Northern Africa</a></td>
+			<td>5.33M</td><td>1077K</td><td>1110</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-PreMerge.zip">Northern Africa</a></td>
+			<td>115.5K</td><td>24207</td><td>19</td>
+		</tr>
+		<tr>
+			<td>20-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-Full.zip">Western Africa</a></td>
+			<td>4.44M</td><td>982K</td><td>915</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-PreMerge.zip">Western Africa</a></td>
+			<td>175.3K</td><td>31566</td><td>27</td>
+		</tr>
+		<tr>
+			<td>20-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-Full.zip">Central Africa</a></td>
+			<td>1.11M</td><td>324K</td><td>255</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-PreMerge.zip">Central Africa</a></td>
+			<td>28.9K</td><td>6032</td><td>5</td>
+		</tr>
+		<tr>
+			<td>20-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-Full.zip">Eastern Africa</a></td>
+			<td>4.34M</td><td>1151K</td><td>972</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-PreMerge.zip">Eastern Africa</a></td>
+			<td>137.2K</td><td>30971</td><td>23</td>
+		</tr>
+		<tr>
+			<td>20-April-2022</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-Full.zip">Southern Africa</a></td>
+			<td>5.15M</td><td>1506K</td><td>1120</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-PreMerge.zip">Southern Africa</a></td>
+			<td>190.2K</td><td>39755</td><td>31</td>
 		</tr>
 	</tbody>
 </table>
