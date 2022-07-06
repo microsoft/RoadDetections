@@ -1,40 +1,36 @@
 Introduction
 -------------------
-This data is freely available for download and use and contains 
+Bing Maps is releasing mined roads around the world. We have detected 23.7M km of roads (1165K km of which is missing from OSM) from Bing Maps imagery between 2020 and 2022 including Maxar and Airbus imagery. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/) and contains
 1. USA
-	- 54 million computer generated roads (9306K km)
-	- 5.9 million computer generated roads (817K km) that are missing in OpenStreetMaps roads drop from 02-May-2020
+	- 9306K km of computer generated roads
+	- 817K km of computer generated roads that are missing in OpenStreetMaps roads drop from 02-May-2020
 2. South America
-	- 18.28 million computer generated roads (4480K km)
-	- 297.3K computer generated roads (97850 km) that are missing in OpenStreetMaps roads drop from 01-March-2021/08-February-2022
+	- 4480K km of computer generated roads
+	- 97850 km of computer generated roads that are missing in OpenStreetMaps roads drop from 01-March-2021/08-February-2022
 3. Caribbean Islands
-	- 1.17 million computer generated roads (232K km)
-	- 27.5K computer generated roads (4908 km) that are missing in OpenStreetMaps roads drop from 13-January-2022
+	- 232K km of computer generated roads
+	- 4908 km of computer generated roads that are missing in OpenStreetMaps roads drop from 13-January-2022
 4. Middle East
-	- 17.60 million computer generated roads (3444K km)
-	- 417.2K computer generated roads (83781 km) that are missing in OpenStreetMaps roads drop from 04-April-2022
+	- 3444K km of computer generated roads
+	- 83781 km of computer generated roads that are missing in OpenStreetMaps roads drop from 04-April-2022
 5. Central Asia
-	- 5.35 million computer generated roads (1204K km)
-	- 123.7K computer generated roads (27788 km) that are missing in OpenStreetMaps roads drop from 04-April-2022
+	- 1204K km of computer generated roads
+	- 27788 km of computer generated roads that are missing in OpenStreetMaps roads drop from 04-April-2022
 6. Northern Africa
-	- 5.33 million computer generated roads (1077K km)
-	- 115.5K computer generated roads (24207 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+	- 1077K km of computer generated roads
+	- 24207 km of computer generated roads that are missing in OpenStreetMaps roads drop from 20-April-2022
 7. Western Africa
-	- 4.44 million computer generated roads (982K km)
-	- 175.3K computer generated roads (31566 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+	- 982K km of computer generated roads
+	- 31566 km of computer generated roads that are missing in OpenStreetMaps roads drop from 20-April-2022
 8. Central Africa
-	- 1.11 million computer generated roads (324K km)
-	- 28.9K computer generated roads (6032 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+	- 324K km of computer generated roads
+	- 6032 km of computer generated roads that are missing in OpenStreetMaps roads drop from 20-April-2022
 9. Eastern Africa
-	- 4.34 million computer generated roads (1151K km)
-	- 137.2K computer generated roads (30971 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
+	- 1151K km of computer generated roads
+	- 30971 km of computer generated roads that are missing in OpenStreetMaps roads drop from 20-April-2022
 10. Southern Africa
-	- 5.15 million computer generated roads (1506K km)
-	- 190.2K computer generated roads (39755 km) that are missing in OpenStreetMaps roads drop from 20-April-2022
-
-License
--------------------
-This data is licensed by Microsoft under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)
+	- 1506K km of computer generated roads
+	- 39755 km of computer generated roads that are missing in OpenStreetMaps roads drop from 20-April-2022
 
 ## FAQ
 
@@ -95,84 +91,84 @@ Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosys
     <thead>
         <tr>
 			<th colspan=1, rowspan=2>Date</th>
-            <th colspan=4>Full drop of all mined roads</th>
-            <th colspan=4>OSM missing roads</th>
+            <th colspan=3>Full drop of all mined roads</th>
+            <th colspan=3>OSM missing roads</th>
         </tr>
 		<tr>
-            <th>State</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
-			<th>Region</th> <th>Number of Roads</th>  <th>Length km</th> <th>Unzipped MB</th>
+            <th>Region</th> <th>Length km</th> <th>Unzipped MB</th>
+			<th>Region</th> <th>Length km</th> <th>Unzipped MB</th>
         </tr>
     </thead>
     <tbody>
 		<tr>
 			<td>02-May-2020</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip">USA</a></td>
-			<td>54.5M</td><td>9308K</td><td>13459</td>
+			<td>9308K</td><td>13459</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/origUSA-PreMerge.zip">USA</a></td>
-			<td>5931242</td><td>817761</td><td>1259</td>
+			<td>817761</td><td>1259</td>
 		</tr>
 		<tr>
 			<td>01-March-2021/08-February-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-Full.zip">South America</a></td>
-			<td>18.28M</td><td>4480K</td><td>4001</td>
+			<td>4480K</td><td>4001</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-PreMerge.zip">South America</a></td>
-			<td>297.3K</td><td>97850</td><td>54</td>
+			<td>97850</td><td>54</td>
 		</tr>
 		<tr>
 			<td>13-January-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip">Caribbean Islands</a></td>
-			<td>1.17M</td><td>232K</td><td>245</td>
+			<td>232K</td><td>245</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-PreMerge.zip">Caribbean Islands</a></td>
-			<td>27.5K</td><td>4908</td><td>5</td>
+			<td>4908</td><td>5</td>
 		</tr>
 		<tr>
 			<td>04-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip">Middle East</a></td>
-			<td>17.6M</td><td>3444K</td><td>3702</td>
+			<td>3444K</td><td>3702</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-PreMerge.zip">Middle East</a></td>
-			<td>417.2K</td><td>83781</td><td>70</td>
+			<td>83781</td><td>70</td>
 		</tr>
 		<tr>
 			<td>04-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-Full.zip">Central Asia</a></td>
-			<td>5.35M</td><td>1204K</td><td>1128</td>
+			<td>1204K</td><td>1128</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-PreMerge.zip">Central Asia</a></td>
-			<td>123.7K</td><td>27788</td><td>21</td>
+			<td>27788</td><td>21</td>
 		</tr>
 		<tr>
 			<td>20-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-Full.zip">Northern Africa</a></td>
-			<td>5.33M</td><td>1077K</td><td>1110</td>
+			<td>1077K</td><td>1110</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-PreMerge.zip">Northern Africa</a></td>
-			<td>115.5K</td><td>24207</td><td>19</td>
+			<td>24207</td><td>19</td>
 		</tr>
 		<tr>
 			<td>20-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-Full.zip">Western Africa</a></td>
-			<td>4.44M</td><td>982K</td><td>915</td>
+			<td>982K</td><td>915</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-PreMerge.zip">Western Africa</a></td>
-			<td>175.3K</td><td>31566</td><td>27</td>
+			<td>31566</td><td>27</td>
 		</tr>
 		<tr>
 			<td>20-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-Full.zip">Central Africa</a></td>
-			<td>1.11M</td><td>324K</td><td>255</td>
+			<td>324K</td><td>255</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-PreMerge.zip">Central Africa</a></td>
-			<td>28.9K</td><td>6032</td><td>5</td>
+			<td>6032</td><td>5</td>
 		</tr>
 		<tr>
 			<td>20-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-Full.zip">Eastern Africa</a></td>
-			<td>4.34M</td><td>1151K</td><td>972</td>
+			<td>1151K</td><td>972</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-PreMerge.zip">Eastern Africa</a></td>
-			<td>137.2K</td><td>30971</td><td>23</td>
+			<td>30971</td><td>23</td>
 		</tr>
 		<tr>
 			<td>20-April-2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-Full.zip">Southern Africa</a></td>
-			<td>5.15M</td><td>1506K</td><td>1120</td>
+			<td>1506K</td><td>1120</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-PreMerge.zip">Southern Africa</a></td>
-			<td>190.2K</td><td>39755</td><td>31</td>
+			<td>39755</td><td>31</td>
 		</tr>
 	</tbody>
 </table>
