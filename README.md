@@ -9,13 +9,13 @@ Bing Maps is releasing mined roads around the world. We have detected <b>37.2M k
 <table>
     <thead>
         <tr>
-			<th colspan=1, rowspan=2>Date</th>
-            <th colspan=2>Full drop of all mined roads</th>
-            <th colspan=2>OSM missing roads</th>
+	    <th colspan=1, rowspan=2>Date</th>
+            <th colspan=2>ALL ML derived Roads</th>
+            <th colspan=2>ML derived Roads missing from OSM</th>
         </tr>
-		<tr>
-            <th>Region</th> <th>Length km</th>
-			<th>Region</th> <th>Length km</th>
+	<tr>
+            <th>Region</th> <th>Length in '000 Km</th>
+	    <th>Region</th> <th>Length in '000 Km</th>
         </tr>
     </thead>
     <tbody>
