@@ -34,79 +34,107 @@ Bing Maps is releasing mined roads around the world. We have detected <b>37.2M k
 			<td>98</td>
 		</tr>
 		<tr>
-			<td>Jan-22</td>
+			<td>Jan-21</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip">Caribbean Islands</a></td>
 			<td>232</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-PreMerge.zip">Caribbean Islands</a></td>
 			<td>5</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>Mar-03</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip">Middle East</a></td>
 			<td>3,444</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-PreMerge.zip">Middle East</a></td>
 			<td>84</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>Apr-05</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-Full.zip">Central Asia</a></td>
 			<td>1,204</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-PreMerge.zip">Central Asia</a></td>
 			<td>28</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>Apr-18</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-Full.zip">Northern Africa</a></td>
 			<td>1,077</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-PreMerge.zip">Northern Africa</a></td>
 			<td>24</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>Apr-28</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-Full.zip">Western Africa</a></td>
 			<td>982</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-PreMerge.zip">Western Africa</a></td>
 			<td>32</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>Apr-28</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-Full.zip">Central Africa</a></td>
 			<td>324</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-PreMerge.zip">Central Africa</a></td>
 			<td>6</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>May-12</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-Full.zip">Eastern Africa</a></td>
 			<td>1,151</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-PreMerge.zip">Eastern Africa</a></td>
 			<td>31</td>
 		</tr>
 		<tr>
-			<td>Apr-22</td>
+			<td>May-12</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-Full.zip">Southern Africa</a></td>
 			<td>1,506</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-PreMerge.zip">Southern Africa</a></td>
 			<td>40</td>
 		</tr>
 		<tr>
-			<td>Jun-22</td>
+			<td>Jun-08</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Europe-Full.zip">Europe</a></td>
 			<td>10,212</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Jul-22</td>
+			<td>Jul-03</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Oceania-Full.zip">Oceania</a></td>
 			<td>1,947</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Jul-22</td>
+			<td>Jul-27</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AmericaCenter-Full.zip">Central America</a></td>
-			<td>1,375</td>
+			<td>1,376</td>
+			<td>N/A</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>Aug-03</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Canada-Full.zip">Canada</a></td>
+			<td>1,832</td>
+			<td>N/A</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>Aug-13</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouth-Full.zip">South Asia</a></td>
+			<td>3,723</td>
+			<td>N/A</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>Sep-12</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouthEast-Full.zip">Southeastern Asia</a></td>
+			<td>2,744</td>
+			<td>N/A</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>Sep-19</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaNorth-Full.zip">North Asia</a></td>
+			<td>2,259</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
