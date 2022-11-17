@@ -5,12 +5,32 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
 ## Data
 
 ![Mining status](images/mining-status.png)
-
+<!---
+| Date          | Region   | Length in '000 Km   |
+:----------------:|:------------:|:---------:
+| 20 May 2020 | [United States](https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip) | 9,308 |
+| 21 Mar 2021 | [South America](https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-Full.zip) | 4,480 |
+| 21 Jan 2022 | [Caribbean Islands](https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip) | 232 |
+| 03 Mar 2022 | [Middle East](https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip) | 3,444 |
+| 05 Apr 2022 | [Central Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-Full.zip) | 1,204 |
+| 18 Apr 2022 | [Northern Africa](https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-Full.zip) | 1,077 |
+| 28 Apr 2022 | [Western Africa](https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-Full.zip) | 982 |
+| 28 Apr 2022 | [Central Africa](https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-Full.zip) | 324 |
+| 12 May 2022 | [Eastern Africa](https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-Full.zip) | 1,151 |
+| 12 May 2022 | [Southern Africa](https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-Full.zip) | 1,506 |
+| 08 Jun 2022 | [Europe](https://usaminedroads.blob.core.windows.net/road-detections/Europe-Full.zip) | 10,212 |
+| 03 Jul 2022 | [Oceania](https://usaminedroads.blob.core.windows.net/road-detections/Oceania-Full.zip) | 1,947 |
+| 27 Jul 2022 | [Central America](https://usaminedroads.blob.core.windows.net/road-detections/AmericaCenter-Full.zip) | 1,376 |
+| 03 Aug 2022 | [Canada](https://usaminedroads.blob.core.windows.net/road-detections/Canada-Full.zip) | 1,832 |
+| 13 Aug 2022 | [South Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouth-Full.zip) | 3,723 |
+| 12 Sep 2022 | [Southeastern Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouthEast-Full.zip) | 2,744 |
+| 19 Sep 2022 | [North Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaNorth-Full.zip) | 2,259 |
+-->
 <table>
     <thead>
         <tr>
 	    <th colspan=1, rowspan=2>Date</th>
-            <th colspan=2>ALL ML derived Roads</th>
+            <th colspan=2>All ML derived Roads</th>
             <th colspan=2>ML derived Roads missing from OSM</th>
         </tr>
 	<tr>
@@ -20,119 +40,119 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
     </thead>
     <tbody>
 		<tr>
-			<td>May-20</td>
+			<td>20 May 2020</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip">United States</a></td>
 			<td>9,308</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/origUSA-PreMerge.zip">United States</a></td>
 			<td>818</td>
 		</tr>
 		<tr>
-			<td>Mar-21</td>
+			<td>21 Mar 2021</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-Full.zip">South America</a></td>
 			<td>4,480</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-PreMerge.zip">South America</a></td>
 			<td>98</td>
 		</tr>
 		<tr>
-			<td>Jan-21</td>
+			<td>21 Jan 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip">Caribbean Islands</a></td>
 			<td>232</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-PreMerge.zip">Caribbean Islands</a></td>
 			<td>5</td>
 		</tr>
 		<tr>
-			<td>Mar-03</td>
+			<td>03 Mar 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip">Middle East</a></td>
 			<td>3,444</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-PreMerge.zip">Middle East</a></td>
 			<td>84</td>
 		</tr>
 		<tr>
-			<td>Apr-05</td>
+			<td> 05 Apr 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-Full.zip">Central Asia</a></td>
 			<td>1,204</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaCenter-PreMerge.zip">Central Asia</a></td>
 			<td>28</td>
 		</tr>
 		<tr>
-			<td>Apr-18</td>
+			<td>18 Apr 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-Full.zip">Northern Africa</a></td>
 			<td>1,077</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaNorth-PreMerge.zip">Northern Africa</a></td>
 			<td>24</td>
 		</tr>
 		<tr>
-			<td>Apr-28</td>
+			<td>28 Apr 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-Full.zip">Western Africa</a></td>
 			<td>982</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaWest-PreMerge.zip">Western Africa</a></td>
 			<td>32</td>
 		</tr>
 		<tr>
-			<td>Apr-28</td>
+			<td>28 Apr 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-Full.zip">Central Africa</a></td>
 			<td>324</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaCenter-PreMerge.zip">Central Africa</a></td>
 			<td>6</td>
 		</tr>
 		<tr>
-			<td>May-12</td>
+			<td>12 May 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-Full.zip">Eastern Africa</a></td>
 			<td>1,151</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaEast-PreMerge.zip">Eastern Africa</a></td>
 			<td>31</td>
 		</tr>
 		<tr>
-			<td>May-12</td>
+			<td>12 May 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-Full.zip">Southern Africa</a></td>
 			<td>1,506</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AfricaSouth-PreMerge.zip">Southern Africa</a></td>
 			<td>40</td>
 		</tr>
 		<tr>
-			<td>Jun-08</td>
+			<td>08 Jun 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Europe-Full.zip">Europe</a></td>
 			<td>10,212</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Jul-03</td>
+			<td>03 Jul 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Oceania-Full.zip">Oceania</a></td>
 			<td>1,947</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Jul-27</td>
+			<td>27 Jul 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AmericaCenter-Full.zip">Central America</a></td>
 			<td>1,376</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Aug-03</td>
+			<td>03 Aug 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Canada-Full.zip">Canada</a></td>
 			<td>1,832</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Aug-13</td>
+			<td>13 Aug 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouth-Full.zip">South Asia</a></td>
 			<td>3,723</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Sep-12</td>
+			<td>12 Sep 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouthEast-Full.zip">Southeastern Asia</a></td>
 			<td>2,744</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
 		<tr>
-			<td>Sep-19</td>
+			<td>19 Sep 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaNorth-Full.zip">North Asia</a></td>
 			<td>2,259</td>
 			<td>N/A</td>
