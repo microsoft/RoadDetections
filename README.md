@@ -1,6 +1,6 @@
 Introduction
 -------------------
-Bing Maps is releasing mined roads around the world. We have detected <b>37.2M km</b> of all roads and 1165K km of roads missing from OSM. Mining is performed with Bing Maps imagery between 2020 and 2022 including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
+Bing Maps is releasing mined roads around the world. We have detected <b>47.8M km</b> of all roads and 1165K km of roads missing from OSM. Mining is performed with Bing Maps imagery between 2020 and 2022 including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
 
 ## Data
 
@@ -162,7 +162,7 @@ The road extraction is done in four stages (full drop went through two stages an
 
 ![](/images/scheme.png)
 
-#### CNN architecture and dataset
+#### Neural network architecture and dataset
 Our network was based on UNet and ResNet and the following papers [U-Net] (https://arxiv.org/abs/1505.04597), [Res U-Net] (https://arxiv.org/pdf/1512.03385.pdf), [Res U-Net] (https://arxiv.org/pdf/1711.10684.pdf).
 The model was trained on 512x512 images, it is fully-convolutional, which allows images of any size (that is divisable by 64) be processed by the model (constrained by GPU memory, 1088x1088 in our case). The training set consists of 20000 labeled images. Majority of the satellite images cover diverse areas all around the world. To achieve a good set representation, we have enriched the set with samples from various areas covering mountains, glaciers, forests, deserts, beaches, coasts, etc.
 Images in the set are of 1088x1088 pixel size with 100 cm/pixel resolution. The training is done with Keras toolkit.
@@ -180,9 +180,6 @@ The vintage of the roads depends on the vintage of the underlying imagery. Becau
 
 #### How good is the data?
 The Osm Missing Data went through a final classifier to ensure that the precision is at least 95% (90% for USA now - to be updated to 95% in 2022). After classifier filters out potentially bad roads we remeasure the precision and make sure that it is 95% before releasing results
-
-#### Will there be more data coming for other geographies?
-Yes, we are working on processing whole world by October-2022
 
 #### Why is the data being released?
 Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosystem.
