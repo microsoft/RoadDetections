@@ -9,7 +9,7 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
 <!---
 | Date          | Region   | Length in '000 Km   |
 :----------------:|:------------:|:---------:
-| 20 May 2020 | [United States](https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip) | 9,308 |
+| 20 May 2020 | [United States](https://usaminedroads.blob.core.windows.net/road-detections/USA.zip) | 9,308 |
 | 21 Mar 2021 | [South America](https://usaminedroads.blob.core.windows.net/road-detections/SouthAmerica-Full.zip) | 4,480 |
 | 21 Jan 2022 | [Caribbean Islands](https://usaminedroads.blob.core.windows.net/road-detections/CaribbeanIslands-Full.zip) | 232 |
 | 03 Mar 2022 | [Middle East](https://usaminedroads.blob.core.windows.net/road-detections/MiddleEast-Full.zip) | 3,444 |
@@ -42,7 +42,7 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
     <tbody>
 		<tr>
 			<td>20 May 2020</td>
-			<td><a href="https://usaminedroads.blob.core.windows.net/full-roads-set-model25feb2020-geo15oct2019/USA.zip">United States</a></td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/USA.zip">United States</a></td>
 			<td>9,308</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/origUSA-PreMerge.zip">United States</a></td>
 			<td>818</td>
