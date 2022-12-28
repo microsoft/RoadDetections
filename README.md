@@ -184,7 +184,7 @@ The road extraction is done in four stages (full drop went through two stages an
 ![](/images/scheme.png)
 
 #### Neural network architecture and dataset
-Our network was based on UNet and ResNet and the following papers [U-Net] (https://arxiv.org/abs/1505.04597), [Res U-Net] (https://arxiv.org/pdf/1512.03385.pdf), [Res U-Net] (https://arxiv.org/pdf/1711.10684.pdf).
+Our network was based on UNet and ResNet and the following papers [U-Net](https://arxiv.org/abs/1505.04597), [Res U-Net](https://arxiv.org/pdf/1512.03385.pdf), [Res U-Net](https://arxiv.org/pdf/1711.10684.pdf).
 The model was trained on 512x512 images, it is fully-convolutional, which allows images of any size (that is divisable by 64) be processed by the model (constrained by GPU memory, 1088x1088 in our case). The training set consists of 20000 labeled images. Majority of the satellite images cover diverse areas all around the world. To achieve a good set representation, we have enriched the set with samples from various areas covering mountains, glaciers, forests, deserts, beaches, coasts, etc.
 Images in the set are of 1088x1088 pixel size with 100 cm/pixel resolution. The training is done with Keras toolkit.
 
