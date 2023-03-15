@@ -5,7 +5,7 @@ Bing Maps is releasing mined roads around the world. We have detected <b>48.8M k
 ## Data
 
 <!--![Mining status](images/mining-status.png)-->
-![Mining status](images/RoadLengthByQuadkey_basemap-10-Full.png)
+![Mining status](images/RoadLengthByQuadkey-mar23_basemap-10-Full.png)
 <!---
 | Date          | Region   | Length in '000 Km   |
 :----------------:|:------------:|:---------:
