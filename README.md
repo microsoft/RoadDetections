@@ -26,6 +26,7 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
 | 13 Aug 2022 | [South Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouth-Full.zip) | 3,723 |
 | 12 Sep 2022 | [Southeastern Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaSouthEast-Full.zip) | 2,744 |
 | 19 Sep 2022 | [North Asia](https://usaminedroads.blob.core.windows.net/road-detections/AsiaNorth-Full.zip) | 2,259 |
+| 27 Feb 2023 | [Japan](https://usaminedroads.blob.core.windows.net/road-detections/Japan-Full.zip) | 1,105 |
 -->
 <table>
     <thead>
@@ -156,6 +157,13 @@ Bing Maps is releasing mined roads around the world. We have detected <b>47.8M k
 			<td>19 Sep 2022</td>
 			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/AsiaNorth-Full.zip">North Asia</a></td>
 			<td>2,259</td>
+			<td>N/A</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>27 Feb 2023</td>
+			<td><a href="https://usaminedroads.blob.core.windows.net/road-detections/Japan-Full.zip">Japan</a></td>
+			<td>1,105</td>
 			<td>N/A</td>
 			<td>N/A</td>
 		</tr>
