@@ -1,184 +1,117 @@
 Introduction
 -------------------
-Bing Maps is releasing mined roads around the world. We have detected <b>48.9M km</b> of all roads and 1165K km of roads missing from OSM. Mining is performed with Bing Maps imagery between 2020 and 2022 including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
+Bing Maps is releasing mined roads around the world. We have detected <b>54.2M km</b> of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
 
 ## Data
 
-<!--![Mining status](images/mining-status.png)-->
-![Mining status](images/RoadLengthByQuadkey-mar23_basemap-10-Full.png)
-<!---
-lolol
-| Date          | Region   | Length in '000 Km   |
-:----------------:|:------------:|:---------:
-| 20 May 2020 | [United States](https://usaminedroads.z19.web.core.windows.net/USA.zip) | 9,308 |
-| 21 Mar 2021 | [South America](https://usaminedroads.z19.web.core.windows.net/SouthAmerica-Full.zip) | 4,480 |
-| 21 Jan 2022 | [Caribbean Islands](https://usaminedroads.z19.web.core.windows.net/CaribbeanIslands-Full.zip) | 232 |
-| 03 Mar 2022 | [Middle East](https://usaminedroads.z19.web.core.windows.net/MiddleEast-Full.zip) | 3,444 |
-| 05 Apr 2022 | [Central Asia](https://usaminedroads.z19.web.core.windows.net/AsiaCenter-Full.zip) | 1,204 |
-| 18 Apr 2022 | [Northern Africa](https://usaminedroads.z19.web.core.windows.net/AfricaNorth-Full.zip) | 1,077 |
-| 28 Apr 2022 | [Western Africa](https://usaminedroads.z19.web.core.windows.net/AfricaWest-Full.zip) | 982 |
-| 28 Apr 2022 | [Central Africa](https://usaminedroads.z19.web.core.windows.net/AfricaCenter-Full.zip) | 324 |
-| 12 May 2022 | [Eastern Africa](https://usaminedroads.z19.web.core.windows.net/AfricaEast-Full.zip) | 1,151 |
-| 12 May 2022 | [Southern Africa](https://usaminedroads.z19.web.core.windows.net/AfricaSouth-Full.zip) | 1,506 |
-| 08 Jun 2022 | [Europe](https://usaminedroads.z19.web.core.windows.net/Europe-Full.zip) | 10,212 |
-| 03 Jul 2022 | [Oceania](https://usaminedroads.z19.web.core.windows.net/Oceania-Full.zip) | 1,947 |
-| 27 Jul 2022 | [Central America](https://usaminedroads.z19.web.core.windows.net/AmericaCenter-Full.zip) | 1,376 |
-| 03 Aug 2022 | [Canada](https://usaminedroads.z19.web.core.windows.net/Canada-Full.zip) | 1,832 |
-| 13 Aug 2022 | [South Asia](https://usaminedroads.z19.web.core.windows.net/AsiaSouth-Full.zip) | 3,723 |
-| 12 Sep 2022 | [Southeastern Asia](https://usaminedroads.z19.web.core.windows.net/AsiaSouthEast-Full.zip) | 2,744 |
-| 19 Sep 2022 | [North Asia](https://usaminedroads.z19.web.core.windows.net/AsiaNorth-Full.zip) | 2,259 |
-| 27 Feb 2023 | [Japan](https://usaminedroads.z19.web.core.windows.net/Japan-Full.zip) | 1,105 |
--->
-<table>
+![Mining status](images/ARMP.Heatmap-v.2025.01.01.01.00.00.png)
+
+<table width="100%">
     <thead>
-        <tr>
-	    <th colspan=1, rowspan=2>Date</th>
-            <th colspan=2>All ML derived Roads</th>
-            <th colspan=2>ML derived Roads missing from OSM</th>
-        </tr>
-	<tr>
-            <th>Region</th> <th>Length in '000 Km</th>
-	    <th>Region</th> <th>Length in '000 Km</th>
+		<tr>
+			<th>Region</th>
+			<th>Length in '000 Km</th>
         </tr>
     </thead>
     <tbody>
 		<tr>
-			<td>20 May 2020</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/USA.zip">United States</a></td>
-			<td>9,308</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/origUSA-PreMerge.zip">United States</a></td>
-			<td>818</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Australia_and_Oceania.zip">Australia and Oceania</a></td>
+			<td>2314.7</td>
 		</tr>
 		<tr>
-			<td>21 Mar 2021</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/SouthAmerica-Full.zip">South America</a></td>
-			<td>4,480</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/SouthAmerica-PreMerge.zip">South America</a></td>
-			<td>98</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Caribbean.zip">Caribbean</a></td>
+			<td>243.7</td>
 		</tr>
 		<tr>
-			<td>21 Jan 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/CaribbeanIslands-Full.zip">Caribbean Islands</a></td>
-			<td>232</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/CaribbeanIslands-PreMerge.zip">Caribbean Islands</a></td>
-			<td>5</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Central_America.zip">Central America</a></td>
+			<td>1538.3</td>
 		</tr>
 		<tr>
-			<td>03 Mar 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/MiddleEast-Full.zip">Middle East</a></td>
-			<td>3,444</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/MiddleEast-PreMerge.zip">Middle East</a></td>
-			<td>84</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Central_Asia.zip">Central Asia</a></td>
+			<td>1204</td>
 		</tr>
 		<tr>
-			<td> 05 Apr 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AsiaCenter-Full.zip">Central Asia</a></td>
-			<td>1,204</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AsiaCenter-PreMerge.zip">Central Asia</a></td>
-			<td>28</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Africa.zip">Eastern Africa</a></td>
+			<td>1668.8</td>
 		</tr>
 		<tr>
-			<td>18 Apr 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaNorth-Full.zip">Northern Africa</a></td>
-			<td>1,077</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaNorth-PreMerge.zip">Northern Africa</a></td>
-			<td>24</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Asia.zip">Eastern Asia</a></td>
+			<td>153.9</td>
 		</tr>
 		<tr>
-			<td>28 Apr 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaWest-Full.zip">Western Africa</a></td>
-			<td>982</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaWest-PreMerge.zip">Western Africa</a></td>
-			<td>32</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Europe.zip">Eastern Europe</a></td>
+			<td>4601.4</td>
 		</tr>
 		<tr>
-			<td>28 Apr 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaCenter-Full.zip">Central Africa</a></td>
-			<td>324</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaCenter-PreMerge.zip">Central Africa</a></td>
-			<td>6</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Middle_Africa.zip">Middle Africa</a></td>
+			<td>513.8</td>
 		</tr>
 		<tr>
-			<td>12 May 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaEast-Full.zip">Eastern Africa</a></td>
-			<td>1,151</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaEast-PreMerge.zip">Eastern Africa</a></td>
-			<td>31</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_Africa.zip">Northern Africa</a></td>
+			<td>1387.2</td>
 		</tr>
 		<tr>
-			<td>12 May 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaSouth-Full.zip">Southern Africa</a></td>
-			<td>1,506</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AfricaSouth-PreMerge.zip">Southern Africa</a></td>
-			<td>40</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_America.zip">Northern America</a></td>
+			<td>12990.6</td>
 		</tr>
 		<tr>
-			<td>08 Jun 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/Europe-Full.zip">Europe</a></td>
-			<td>10,212</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_Europe.zip">Northern Europe</a></td>
+			<td>2380</td>
 		</tr>
 		<tr>
-			<td>03 Jul 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/Oceania-Full.zip">Oceania</a></td>
-			<td>1,947</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/South_America.zip">South America</a></td>
+			<td>5694.7</td>
 		</tr>
 		<tr>
-			<td>27 Jul 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AmericaCenter-Full.zip">Central America</a></td>
-			<td>1,376</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southeastern_Asia.zip">Southeastern Asia</a></td>
+			<td>2777</td>
 		</tr>
 		<tr>
-			<td>03 Aug 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/Canada-Full.zip">Canada</a></td>
-			<td>1,832</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Africa.zip">Southern Africa</a></td>
+			<td>1217.9</td>
 		</tr>
 		<tr>
-			<td>13 Aug 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AsiaSouth-Full.zip">South Asia</a></td>
-			<td>3,723</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Asia.zip">Southern Asia</a></td>
+			<td>5676.3</td>
 		</tr>
 		<tr>
-			<td>12 Sep 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AsiaSouthEast-Full.zip">Southeastern Asia</a></td>
-			<td>2,744</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Europe.zip">Southern Europe</a></td>
+			<td>2727.7</td>
 		</tr>
 		<tr>
-			<td>19 Sep 2022</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/AsiaNorth-Full.zip">North Asia</a></td>
-			<td>2,259</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Africa.zip">Western Africa</a></td>
+			<td>1130.3</td>
 		</tr>
 		<tr>
-			<td>27 Feb 2023</td>
-			<td><a href="https://usaminedroads.z19.web.core.windows.net/Japan-Full.zip">Japan</a></td>
-			<td>1,105</td>
-			<td>N/A</td>
-			<td>N/A</td>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Asia.zip">Western Asia</a></td>
+			<td>2444.4</td>
+		</tr>
+		<tr>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Europe.zip">Western Europe</a></td>
+			<td>3560.5</td>
+		</tr>
+		<tr>
+			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/World.zip">World</a></td>
+			<td>54225.2</td>
 		</tr>
 	</tbody>
 </table>
 
 ## FAQ
 
+#### What is the data format?
+Each file has all roads from a certain geographical region. Each row in a file has an Alpha-3 code and a geojson of a road (Alpha-3 code of a region where the road geojson approximately is) separated with TAB (\t). Each geojson also contains property "WidthMeters" - approximate width of the road in meters.
+
+World is divided into subregions for easier usability based on <a href="https://en.wikipedia.org/wiki/United_Nations_geoscheme">United Nations geoscheme</a>
+
+Alpha-3 codes are used from <a href="https://www.iban.com/country-codes">IBAN</a> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">Wikipedia page</a>. Also refer to AlphaCodeToRegionName.tsv file (some smaller regions/disputed areas might have ambigious codes)
+
 #### What is the GeoJson format?
 GeoJSON is a format for encoding a variety of geographic data structures. 
 For Intensive Documentation and Tutorials, Refer to [GeoJson Blog](http://geojson.org/)
 
 #### Data generation details:
-The road extraction is done in four stages (full drop went through two stages and OSM missing set went through all four):
+The road extraction is done in two major stages:
 1.	Semantic Segmentation – Recognizing road pixels on the aerial image using Convolutional Neural Network (CNN).
 2.	Geometry Generation - A series of algorithms and processes transforming output of semantic segmentation into roads in geometry format.
     - Image postprocessing
@@ -187,8 +120,6 @@ The road extraction is done in four stages (full drop went through two stages an
     - Graph construction
     - Finalizing road shapes and network quality
     - Stiching road geojsons between neighboring images where needed
-3.  Conflation & Cutting - Excluding roads and parts of roads that already exist in the road network (OSM).
-4.  Classification - A classifier to filter out low-confidence roads and predict a road type.
 
 ![](/images/scheme.png)
 
@@ -206,13 +137,16 @@ We measure intermediate stage metrics to track performance of our models. <i>Pix
 |APLS|87.53%|79.33%|
 
 #### Data Vintage
-The vintage of the roads depends on the vintage of the underlying imagery. Because Bing Imagery is a composite of multiple sources it is difficult to know the exact dates for individual pieces of data.
+The vintage of the roads depends on the vintage of the underlying imagery. Because Bing Imagery is a composite of multiple sources it is difficult to know the exact dates for individual pieces of data. However data is up-to-date with freshest available imagery from Microsoft Maps.
 
 #### How good is the data?
-The Osm Missing Data went through a final classifier to ensure that the precision is at least 95% (90% for USA now - to be updated to 95% in 2022). After classifier filters out potentially bad roads we remeasure the precision and make sure that it is 95% before releasing results
+The result of the pipeline (after going through conflation, cutting, filtering and quality control reached 95% precision and pushed into Microsoft Maps production.
 
 #### Why is the data being released?
 Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosystem.
+
+#### Next steps
+We will opensource both NN model and geometry generation code in 2025
 
 # Contributing
 
