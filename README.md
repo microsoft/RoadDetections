@@ -1,6 +1,6 @@
 Introduction
 -------------------
-Bing Maps is releasing mined roads around the world. We have detected <b>54.2M km</b> of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
+Bing Maps is releasing mined roads around the world. We have detected <b>54.2M km</b> of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/). We plan to opensource both NN model and geometry generation code in first half of 2025
 
 ## Data
 
@@ -102,7 +102,7 @@ Bing Maps is releasing mined roads around the world. We have detected <b>54.2M k
 #### What is the data format?
 Each file has all roads from a certain geographical region. Each row in a file has an Alpha-3 code and a geojson of a road (Alpha-3 code of a region where the road geojson approximately is) separated with TAB (\t). Each geojson also contains property "WidthMeters" - approximate width of the road in meters.
 
-World is divided into subregions for easier usability based on <a href="https://en.wikipedia.org/wiki/United_Nations_geoscheme">United Nations geoscheme</a>
+World is divided into subregions for better usability based on <a href="https://en.wikipedia.org/wiki/United_Nations_geoscheme">United Nations geoscheme</a>
 
 Alpha-3 codes are used from <a href="https://www.iban.com/country-codes">IBAN</a> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">Wikipedia page</a>. Also refer to AlphaCodeToRegionName.tsv file (some smaller regions/disputed areas might have ambigious codes)
 
