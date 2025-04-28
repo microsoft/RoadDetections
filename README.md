@@ -11,88 +11,89 @@ Bing Maps is releasing mined roads around the world. We have detected <b>54.2M k
 		<tr>
 			<th>Region</th>
 			<th>Length in '000 Km</th>
+			<th>File size in MB</th>
         </tr>
     </thead>
     <tbody>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Australia_and_Oceania.zip">Australia and Oceania</a></td>
-			<td>2314.7</td>
+			<td>2314.7</td><td>383</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Caribbean.zip">Caribbean</a></td>
-			<td>243.7</td>
+			<td>243.7</td><td>76</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Central_America.zip">Central America</a></td>
-			<td>1538.3</td>
+			<td>1538.3</td><td>427</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Central_Asia.zip">Central Asia</a></td>
-			<td>1204</td>
+			<td>1204</td><td>309</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Africa.zip">Eastern Africa</a></td>
-			<td>1668.8</td>
+			<td>1668.8</td><td>360</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Asia.zip">Eastern Asia</a></td>
-			<td>153.9</td>
+			<td>153.9</td><td>48</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Eastern_Europe.zip">Eastern Europe</a></td>
-			<td>4601.4</td>
+			<td>4601.4</td><td>1382</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Middle_Africa.zip">Middle Africa</a></td>
-			<td>513.8</td>
+			<td>513.8</td><td>112</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_Africa.zip">Northern Africa</a></td>
-			<td>1387.2</td>
+			<td>1387.2</td><td>388</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_America.zip">Northern America</a></td>
-			<td>12990.6</td>
+			<td>12990.6</td><td>3865</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Northern_Europe.zip">Northern Europe</a></td>
-			<td>2380</td>
+			<td>2380</td><td>985</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/South_America.zip">South America</a></td>
-			<td>5694.7</td>
+			<td>5694.7</td><td>1245</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southeastern_Asia.zip">Southeastern Asia</a></td>
-			<td>2777</td>
+			<td>2777</td><td>680</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Africa.zip">Southern Africa</a></td>
-			<td>1217.9</td>
+			<td>1217.9</td><td>241</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Asia.zip">Southern Asia</a></td>
-			<td>5676.3</td>
+			<td>5676.3</td><td>1467</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Southern_Europe.zip">Southern Europe</a></td>
-			<td>2727.7</td>
+			<td>2727.7</td><td>972</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Africa.zip">Western Africa</a></td>
-			<td>1130.3</td>
+			<td>1130.3</td><td>306</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Asia.zip">Western Asia</a></td>
-			<td>2444.4</td>
+			<td>2444.4</td><td>756</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/Western_Europe.zip">Western Europe</a></td>
-			<td>3560.5</td>
+			<td>3560.5</td><td>1410</td>
 		</tr>
 		<tr>
 			<td><a href="https://usaminedroads.z19.web.core.windows.net/drops/2025.04.28/World.zip">World</a></td>
-			<td>54225.2</td>
+			<td>54225.2</td><td>16564</td>
 		</tr>
 	</tbody>
 </table>
