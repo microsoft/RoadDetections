@@ -144,7 +144,7 @@ The vintage of the roads depends on the vintage of the underlying imagery. Becau
 The result of the pipeline (after going through conflation, cutting, filtering and quality control reached 95% precision and pushed into Microsoft Maps production.
 
 #### Why is the data being released?
-Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosystem.
+Microsoft has a continued interest in supporting a thriving OpenStreetMap (OSM) ecosystem.
 
 #### Next steps
 We will opensource both NN model and geometry generation code in 2025
