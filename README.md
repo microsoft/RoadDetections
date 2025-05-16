@@ -1,6 +1,6 @@
 Introduction
 -------------------
-Bing Maps is releasing mined roads around the world. We have detected <b>54.2M km</b> of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/). We plan to opensource both NN model and geometry generation code in first half of 2025
+Bing Maps is releasing mined roads around the world. We have detected <b>54.2M km</b> of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/). We plan to opensource both NN model and geometry generation code in first half of 2025.
 
 ## Data
 
