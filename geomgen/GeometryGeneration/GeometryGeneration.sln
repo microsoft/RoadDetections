@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryGeneration", "GeometryGeneration\GeometryGeneration.csproj", "{2A24591A-49A8-44F3-85AA-1AE908D34197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{CF1A81DF-2294-450E-867C-F31C6E4F67B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoUtils", "GeoUtils\GeoUtils.csproj", "{64315D35-4DB7-4AE3-BAF8-2CFD745CF975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageUtils", "ImageUtils\ImageUtils.csproj", "{D3A84C5F-4A47-4BA4-AF46-48080A33E0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostProcessing", "PostProcessing\PostProcessing.csproj", "{FF9504C1-01B2-44DD-9050-2ED8A8D2CAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A24591A-49A8-44F3-85AA-1AE908D34197}.Release|x64.ActiveCfg = Release|x64
+		{2A24591A-49A8-44F3-85AA-1AE908D34197}.Release|x64.Build.0 = Release|x64
+		{CF1A81DF-2294-450E-867C-F31C6E4F67B2}.Release|x64.ActiveCfg = Release|x64
+		{CF1A81DF-2294-450E-867C-F31C6E4F67B2}.Release|x64.Build.0 = Release|x64
+		{64315D35-4DB7-4AE3-BAF8-2CFD745CF975}.Release|x64.ActiveCfg = Release|x64
+		{64315D35-4DB7-4AE3-BAF8-2CFD745CF975}.Release|x64.Build.0 = Release|x64
+		{D3A84C5F-4A47-4BA4-AF46-48080A33E0D4}.Release|x64.ActiveCfg = Release|x64
+		{D3A84C5F-4A47-4BA4-AF46-48080A33E0D4}.Release|x64.Build.0 = Release|x64
+		{FF9504C1-01B2-44DD-9050-2ED8A8D2CAAC}.Release|x64.ActiveCfg = Release|x64
+		{FF9504C1-01B2-44DD-9050-2ED8A8D2CAAC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60B85FDF-0493-47A0-AC28-0FF28308A500}
+	EndGlobalSection
+EndGlobal
