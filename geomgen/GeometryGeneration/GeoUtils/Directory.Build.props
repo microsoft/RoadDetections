@@ -1,0 +1,8 @@
+<Project>
+    <ItemGroup>
+        <PackageVersion Include="NetTopologySuite" Version="2.2.0" />
+        <PackageVersion Include="NetTopologySuite.Features" Version="2.0.0" />
+        <PackageVersion Include="NetTopologySuite.IO.GeoJSON" Version="3.0.0" />
+        <PackageVersion Include="Newtonsoft.Json" Version="9.0.1" />
+    </ItemGroup>
+</Project>
