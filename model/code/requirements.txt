@@ -1,0 +1,14 @@
+h5py==2.7.1
+numpy==1.14.0
+opencv-python==3.4.0.12
+pandas==0.20.1
+Pillow==5.0.0
+psutil==5.4.7
+requests==2.11.1
+scikit-learn==0.18.1
+scipy==1.3.1
+Shapely==1.6.3
+six==1.11.0
+tensorflow-gpu==1.12.0
+keras==2.1.6
+Keras-Applications==1.0.8
